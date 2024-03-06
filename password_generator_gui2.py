@@ -3,7 +3,7 @@ from random import randint
 
 root = Tk()
 root.title('Strong Password Generator')
-#root.iconbitmap('file_path.ico')
+root.iconbitmap('file_path.ico')
 root.geometry("500x300")
 
 my_password = chr(randint(33,126))

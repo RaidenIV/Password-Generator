@@ -41,7 +41,7 @@ lf.pack(pady=20)
 my_entry = Entry(lf, font=("Helvetica", 24))
 my_entry.pack(pady=20, padx=20)
 
-# Create Enrty Box For Our Returned Password
+# Create Entry Box For Returned Password
 pw_entry = Entry(root, text='', font=("Helvetica", 24), bd=0, bg="systembuttonface")
 pw_entry.pack(pady=20)
 
